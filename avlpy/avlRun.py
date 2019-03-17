@@ -1,3 +1,5 @@
+import os
+import subprocess
 class  avlRun:
 	""" This function takes in a terminal command which would open avl (ie. "avl3.35") and a list
 		of strings containting avl commands to be executed in sequence (ie. ["load plan.avl", ....]).

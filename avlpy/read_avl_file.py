@@ -1,3 +1,5 @@
+import re
+
 def read_avl_file(fname):
 	""" This function reads an avl file into a list of dictionaries for each surface
 

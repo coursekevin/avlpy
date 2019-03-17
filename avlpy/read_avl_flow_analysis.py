@@ -1,3 +1,5 @@
+import re
+
 def read_avl_flow_analysis(fname,printValues = False):
 	""" This function reads a filename and returns an avl_dict. The keys in the dictionary are the 
 		values found in the file and avl_dict[key] is the value.
