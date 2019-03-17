@@ -135,4 +135,4 @@ class  avlRun:
 			cmd_list.append("q")
 			cmd_bytes = "\n".join(cmd_tmp)
 
-		return(subprocess.run(avl_opn_cmd, input=cmd_bytes.encode()))
+		return(subprocess.run(self.avl_opn_cmd, input=cmd_bytes.encode()))
