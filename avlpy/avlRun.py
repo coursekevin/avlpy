@@ -134,5 +134,6 @@ class  avlRun:
 		else:
 			cmd_list.append("q")
 			cmd_bytes = "\n".join(cmd_tmp)
+		with open(self.tmp_dir + '/stdout.txt','wb') as outfile:
+			return(subprocess.run(self.avl_opn_cmd, input=cmd_bytes.encode(), stdout =outfile)
 
-		return(subprocess.run(self.avl_opn_cmd, input=cmd_bytes.encode()))
