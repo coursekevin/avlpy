@@ -1,3 +1,4 @@
+import re
 def read_avl_sys_mat(fname):
 	""" This function reads a filename and returns an avl_dict. The keys in the dictionary are the 
 		values found in the file and avl_dict[key] is the value.
