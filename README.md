@@ -1,8 +1,10 @@
 # avlpy
-A high level python wrapper for Drela and Youngren's AVL. The intent is to be able easily script interactions with AVL 
+A high level python wrapper for Drela and Youngren's AVL (http://web.mit.edu/drela/Public/web/avl/). The intent is to be able easily script interactions with AVL for iterative aircraft design.
 
 ## Installation
-Install directly from git with:
+### Note the package is only a wrapper for AVL and requires AVL be installed. See http://web.mit.edu/drela/Public/web/avl/ for more details
+
+Install directly from git with (recommended):
 
 ```bash
 sudo pip install git+https://github.com/coursekevin/avlpy.git
@@ -24,7 +26,7 @@ from the avlpy/ directory
 
 ## Example AVL Scripting
 
-From avlpy/example. Here we have predefined a wingus.avl and wingus.mass file. These files describe a model aircraft. We first import the library and initialize a avlRun object. I'm using avl3.35.
+From avlpy/example. Here we have predefined a wingus.avl and wingus.mass file. These files describe a model aircraft. We first import the library and initialize an avlRun object. I'm using avl3.35.
 ```python
 import avlpy
 # setup avl session
