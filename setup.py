@@ -5,7 +5,7 @@ with open("README.md","r") as fh:
 
 setuptools.setup(
 	name = "avlpy",
-	version = "0.1",
+	version = "0.2",
 	author ="Kevin Course",
 	author_email = "kevin.course@mail.utoronto.ca",
 	description="A high-level avl wrapper in python",
