@@ -13,6 +13,7 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     url="https://github.com/coursekevin/avlpy",
     packages=setuptools.find_packages(),
+    include_packages=['os']
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: MIT License",
