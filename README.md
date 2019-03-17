@@ -4,7 +4,7 @@ A high level python wrapper for Drela and Youngren's AVL (http://web.mit.edu/dre
 ## Installation
 ### Note the package is only a wrapper for AVL and requires AVL be installed. See http://web.mit.edu/drela/Public/web/avl/ for more details
 
-Install directly from git with (recommended):
+Install directly from git (recommended):
 
 ```bash
 sudo pip install git+https://github.com/coursekevin/avlpy.git
