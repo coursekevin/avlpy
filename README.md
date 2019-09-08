@@ -20,7 +20,7 @@ git clone https://github.com/coursekevin/avlpy.git
 and install the package by running:
 
 ```bash
-python setup.py
+pip install .
 ```
 from the avlpy/ directory
 
